@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+body{
+     margin: 0;
+     padding: 0;
+  
+}
+.container {
+     margin-top:-20;
+     padding: 0;
+     width: 1515px;
+     height: 769px;
+     background: url(New_hero_mob_2.jpg) no-repeat;
+     background-size: 1600px 769px;
+
+}
+
+#logo {
+     position: relative;
+     top: 10px;
+     left: 190px;
+}
+
+.navbar {
+     width: 900px;
+     height: 38px;
+     /* border: 1px solid white; */
+     margin: 20px 590px;
+}
+
+ul {
+     list-style: none;
+     display: flex;
+     padding: 10px;
+     margin-top: 0;
+     /* margin-left: 20px; */
+}
+
+li {
+     padding-left: 18px;
+}
+
+a {
+     font-size: 20px;
+     color: #FFFFFF99;
+     font-family: 'Bree Serif', serif;
+     text-decoration: none;
+}
+
+.icons {
+     width: 190px;
+     height: 36px;
+     /* background-color: aquamarine; */
+     margin-left: 10px;
+     margin-top: -10px;
+}
+
+.li_icon {
+     padding-left: 5px;
+     margin-left: -2px;
+}
+
+.secondary_navbar {
+     width: 1100px;
+     height: 36px;
+     /* border: 2px solid #fff;  */
+     float: right;
+     margin-right: 29px;
+}
+
+.a2 {
+     font-size: 22px;
+     color: #FFFF;
+     font-family: 'Bree Serif', serif;
+     text-decoration: none;
+}
+
+.input_search {
+     width: 60px;
+     margin-left: 15px;
+     margin-bottom: 10px;
+}
+
+input {
+     font-size: 20px;
+     font-family: 'Bree Serif', serif;
+     color: #efefef;
+     text-align: center;
+     width: 250px;
+     height: 36px;
+     border-radius: 20px;
+     margin-top: -10px;
+}
+
+#search_icon {
+     position: relative;
+     top: -34px;
+     right: -197px;
+}
+
+section {
+     width: 1515px;
+     height: 740px;
+     margin-top: -50px;
+     background-color: #260e4d;
+     line-height: 10px;
+}
+#para1{
+     font-size: 45px;
+     font-family: 'Bree Serif', serif;
+     color: #FFFF;
+     text-align: center;
+     padding-top: 60px;
+}
+#para2{
+     font-size: 45px;
+      font-family: 'Bree Serif', serif;
+     font-weight: 700;
+     color: #FFFF;
+     text-align: center;
+    
+}
+#inventor{
+     margin: 100px 100px;
+     border-radius: 10px;
+     padding: 0px;
+}
+#img2{
+   margin: 100px 5px;
+   border-radius: 10px;
+padding: 0px;
+}
+#cocoalife{
+     margin: 100px  80px;
+     border-radius: 10px;
+     padding: 0px;
+} 
+button{
+    
+     cursor: pointer;
+     transition: all .1s ease-in-out;
+}
+#btn1{
+   width: 110px;
+     color: #efefef;
+     font-size: 14px;
+     line-height: 2.5;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: relative;
+   left: -310px;
+   top: -10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px white;
+}
+#btn2{
+   width: 120px;
+     color: #efefef;
+     font-size: 14px;
+     line-height: 2.5;
+     padding-left: 15px;
+     padding-right: 10px;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: relative;
+   left: -250px;
+   top: -10px;
+}
+#btn3{
+     color: #efefef;
+     font-size: 14px;
+     line-height: 2.5;
+    padding-left: 25px;
+    padding-right: 25px;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: relative;
+   left: 1200px;
+   top: -60px;
+}
+.section2{
+     width: 1515px;
+     height: 664px;
+     background: #472383;
+     margin-top: -17px;
+}
+#blur{
+     position: absolute;
+     right: 200px;
+     top: 1700px;
+}
+#green{
+     position: absolute;
+     right: 400px;
+     top: 1700px;
+}
+#orange{
+     position: absolute;
+     right: 650px;
+     top: 1600px;
+}
+#pink{
+     position: absolute;
+     left: 300px;
+     top: 1700px;
+}
+#yellow{
+     position: absolute;
+     left: 90px;
+     top: 1700px;
+}
+#product{
+     font-size: 20px;
+     color: #FFFF;
+     font-family: 'Bree Serif', serif;
+     position: absolute;
+     top: 2100px;
+     left: 680px;
+     opacity: 0.5;
+}
+h3{
+     font-size: 20px;
+     color: #FFFF;
+     font-family: 'Signika Negative', sans-serif;
+     position: absolute;
+     top: 2127px;
+     left: 650px;
+}
+.products{
+     display: inline-block;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: #efefef;
+     font-size: 14px;
+     line-height: 2.5;
+   border-radius: 1.5rem;
+  background-color: transparent;
+   border: 2px solid #efefef;
+   position: absolute;
+   left: 640px;
+   top: 2180px;
+   cursor: pointer;
+   transition:.5s;
+   box-shadow: 0px 0px 0px white;
+}
+.products:hover{
+     /*background-color: #260e4d;*/
+     /*box-shadow: 10px 10px 20px white;*/
+     box-shadow: 8px 8px 0px white;
+}
+#divider{
+     transform: rotate(180deg);
+     z-index: 999;
+     margin-top: -1px;
+}
+.section3{
+     width: 1515px;
+     height: 664px;
+     background-color: #260e4d;
+     margin-top: -17px;
+}
+h1{
+     padding-top: 70px;
+     color: #FFFF;
+     font-size: 45px;
+     font-family: 'Signika Negative', sans-serif ;
+     text-align: center;
+}
+#toastie{
+     position: absolute;
+     right: 200px;
+     top: 2600px;
+     border-radius: 8px;
+}
+#milktray{
+     position: absolute;
+     right: 420px;
+     top: 2600px;
+     border-radius: 8px;
+}
+#owlcake{
+     position: absolute;
+     left: 640px;
+     top: 2560px;
+     border-radius: 8px;
+}
+#caramelt{
+     position: absolute;
+     left: 400px;
+     top: 2600px;
+     border-radius: 8px;
+}
+#eggtray{
+     position: absolute;
+     left: 200px;
+     top: 2600px;
+     border-radius: 8px;
+}
+#owl_cake{
+     font-size: 32px;
+     color: #FFFF;
+     font-family: 'Signika Negative', sans-serif;
+     position: absolute;
+     top: 2800px;
+     left: 670px;
+     cursor: pointer;
+}
+.recipies{
+     display: inline-block;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: #efefef;
+     font-size: 14px;
+     line-height: 2.5;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: absolute;
+   left: 670px;
+   top: 2880px;
+   cursor: pointer;
+   transition:.5s;
+   box-shadow: 0px 0px 0px white;
+}
+.recipies:hover{
+     background-color: #260e4d;
+     box-shadow: 8px 8px 0px white;
+}
+#divider2{
+     z-index: 999;
+     margin-top: -1px;
+}
+.section4{
+     width: 1515px;
+     height: 384px;
+     background-color: #472383;
+}
+#cadburyworld{
+     position: absolute;
+     left: 250px;
+}
+#gift{
+     position: absolute;
+     left: 650px;
+     top:3140px ;
+}
+.cadbury_world{
+     display: inline-block;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: #efefef;
+     font-family: 'Signika Negative', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 2.5;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: absolute;
+   left: 270px;
+   top: 3460px;
+   cursor: pointer;
+   transition:.5s;
+   box-shadow: 0px 0px 0px white;
+}
+.cadbury_world:hover{
+     background-color: #260e4d;
+     box-shadow: 8px 8px 0px white;
+}
+.perfect-gift{
+     display: inline-block;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: #efefef;
+     font-family: 'Signika Negative', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 2.5;
+   border-radius: 1.5rem;
+  background: transparent;
+   border: 2px solid #efefef;
+   position: absolute;
+   left: 677px;
+   top: 3460px;
+   cursor: pointer;
+   transition:.5s;
+   box-shadow: 0px 0px 0px white;
+}
+.perfect-gift:hover{
+     background-color: #260e4d;
+     box-shadow: 8px 8px 0px white;
+}
+#cup{
+}
+footer{
+     width: 1515px;
+     height: 100px;
+}
+#sitelink{
+     font-size: 18px;
+     color: #472383;
+     text-decoration: none;
+    position: absolute;
+    left: 200px;
+    top: 3690px;
+}
+#plus{
+    
+   margin-left: 5px;
+    
+}
